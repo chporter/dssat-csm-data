@@ -29,25 +29,28 @@ Additional model-specific data files are included in the DSSAT source code repos
 (https://github.com/DSSAT/dssat-csm-os/tree/develop/Data). These include model-specific data for genotypes, pest, 
 standard model data, code files, DSSATPRO files, etc. 
     .
-    ├── Genotype
-    ├── Pest
-    ├── StandardData 
-    ├── Data.CDE 
-    ├── Detail.CDE 
-    ├── DSSATPRO.v48
-    └── ... 
+    ├── Genotype
+    ├── Pest
+    ├── StandardData
+    ├── Data.CDE
+    ├── Detail.CDE
+    ├── DSSATPRO.v48
+    ├── ...
+    └── README.md
  
 The files in this repository can be combined with the files in the Data folder of the source repository to 
 replicate the directory structure of the Windows installation of DSSAT v4.8 (e.g., with Genotype directory at the
 same level as the Alfalfa directory and the CDE files in the root directory).
 
-## Test installation ##
 
-To test if the files are in the correct location, run the model from the Maize data directory
+## Test your CSM installation ##
+
+To test your DSSAT-CSM model installation, execute the model from the Maize data directory using the following command line structure:
 
   *path+executable* A UFGA8201.MZX
   
-This should run the maize experiment UFGA8201.MZX and generate outputs for six treatments in files Summary.OUT, PlantGro.OUT, and others.
+where UFGA8201.MZX is the name of a file containing details of a field experiment. This command should run the model for this particular experimnt and generate outputs for six treatments in files Summary.OUT, PlantGro.OUT, and other files.
+
 
 
 ## How to Cite DSSAT ##
