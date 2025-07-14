@@ -7,6 +7,8 @@
 @NOTES
  Hypothetical tomato experiment to illustrate bed configuration, drip irrigation, 2D model
  1D treatments included for comparison.
+ - Treatments 1-5: 2D sub-daily drip irrigation, 5 bed configurations
+ - Treatments 6-10: 1D daily drip irrigation, 5 bed configurations
  
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
@@ -15,6 +17,7 @@
  3 1 1 0 2D, flat, Full PM          1  3  0  1  1  1  1  0  0  1  0  1  1
  4 1 1 0 2D, raised, No PM          1  4  0  1  1  1  1  0  0  1  0  1  1
  5 1 1 0 2D, raised, Part PM        1  5  0  1  1  1  1  0  0  1  0  1  1
+ 
  6 1 1 0 1D, flat, No PM            1  1  0  1  1  2  1  0  0  1  0  1  2
  7 1 1 0 1D, flat, Part PM          1  2  0  1  1  2  1  0  0  1  0  1  2
  8 1 1 0 1D, flat, Full PM          1  3  0  1  1  2  1  0  0  1  0  1  2
@@ -38,7 +41,6 @@
  3              40             116       625               -99   -99   -99   -99   -99   -99
  4              40             116       625               -99   -99   -99   -99   -99   -99
  5              40             116       625               -99   -99   -99   -99   -99   -99
-!2023-07-14 chp changed order of PMALB, BDWD, BDHT so that 1D and 2D models can use the same FileXs.
 @L PMALB  BDWD  BDHT
  1   -99   -99   -99    !2D, flat, No PM    
  2   0.3    35     0    !2D, flat, Part PM  
@@ -100,9 +102,9 @@
 
 *FERTILIZERS (INORGANIC)
 @F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
- 1 15124 FE005 AP004     5    68     0     0     0     0   -99 -99 
- 1 15124 FE014 AP004     5     0    68     0     0     0   -99 -99 
- 1 15124 FE018 AP004     5     0     0    68     0     0   -99 -99 
+ 1 15121 FE005 AP004     5    68     0     0     0     0   -99 -99 
+ 1 15121 FE014 AP004     5     0    68     0     0     0   -99 -99 
+ 1 15121 FE018 AP004     5     0     0    68     0     0   -99 -99 
  1 15179 FE016 AP005     0     0     0    40     0     0   -99 -99 
  1 15179 FE007 AP005     0     2    20     0     0     0   -99 -99 
  1 15179 FE005 AP005     0    66     0     0     0     0   -99 -99 
