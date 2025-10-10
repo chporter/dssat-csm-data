@@ -1,4 +1,4 @@
-*EXP.DETAILS: TXEL7901BH PENSOCOLA BAHIAGRASS AT EAGLE LAKE, TEXAS, CROW
+*EXP.DETAILS: TXEL7901BH PENSOCOLA BAHIA GRASS, EAGLE LAKE, TEXAS, CROW
 
 *GENERAL
 @PEOPLE
@@ -7,17 +7,19 @@
 -99
 @SITE
 TAMU Research Center, Eagle Lake, TX
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
 @NOTES
 Treatments 1-5 are original experiment treatments
 
 
 *TREATMENTS                        -------------FACTOR LEVELS------------
 @N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
- 1 1 0 0 DRYLAND -    0 KG N/HA     1  1  1  1  1  0  1  0  0  0  1  1  1
- 2 1 0 0 DRYLAND -   84 KG N/HA     1  1  1  1  1  0  2  0  0  0  1  1  1
- 3 1 0 0 DRYLAND -  168 KG N/HA     1  1  1  1  1  0  3  0  0  0  1  1  1
- 4 1 0 0 DRYLAND -  252 KG N/HA     1  1  1  1  1  0  4  0  0  0  1  1  1
- 5 1 0 0 DRYLAND -  336 KG N/HA     1  1  1  1  1  0  5  0  0  0  1  1  1
+ 1 1 0 0 DRYLAND -    0 kg N/HA     1  1  1  1  1  0  1  0  0  0  1  1  1
+ 2 1 0 0 DRYLAND -   84 kg N/HA     1  1  1  1  1  0  2  0  0  0  1  1  1
+ 3 1 0 0 DRYLAND -  168 kg N/HA     1  1  1  1  1  0  3  0  0  0  1  1  1
+ 4 1 0 0 DRYLAND -  252 kg N/HA     1  1  1  1  1  0  4  0  0  0  1  1  1
+ 5 1 0 0 DRYLAND -  336 kg N/HA     1  1  1  1  1  0  5  0  0  0  1  1  1
 
 *CULTIVARS
 @C CR INGENO CNAME
